@@ -158,10 +158,12 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
   return (
     <div 
       ref={cardRef}
-      className="relative w-[300px] h-[420px] cursor-pointer transition-all duration-300 ease-out group"
+      className="relative w-full aspect-[3/4] cursor-pointer transition-all duration-300 ease-out group"
       style={{
         transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
-        transformStyle: 'preserve-3d'
+        transformStyle: 'preserve-3d',
+        maxWidth: '300px',
+        margin: '0 auto'
       }}
       onClick={handleCardClick}
     >
