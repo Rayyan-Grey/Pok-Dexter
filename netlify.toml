@@ -3,6 +3,21 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/sounds/*"
+  to = "/sounds/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/*"
+  to = "/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/icons/*"
+  to = "/icons/:splat"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200 

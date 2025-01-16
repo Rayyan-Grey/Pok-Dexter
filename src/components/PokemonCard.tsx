@@ -102,7 +102,7 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
 
     // Create audio element if this is Pikachu
     if (pokemon.name === 'pikachu') {
-      audioRef.current = new Audio('/src/Sounds/Piakchu.mp3');
+      audioRef.current = new Audio('/sounds/Piakchu.mp3');
       audioRef.current.volume = 0.3; // Set initial volume to 30%
     }
 
