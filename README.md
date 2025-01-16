@@ -42,5 +42,45 @@ Before running this project locally, ensure you have the following installed:
    ```bash
    npm install
 3. **Create a .env file in the root directory (if needed)**
-  ```bash
-  VITE_API_BASE_URL=https://pokeapi.co/api/v2
+   VITE_API_BASE_URL=https://pokeapi.co/api/v2
+
+## Running the App
+1. Start the development server
+   ```bash
+   npm run dev
+2. Build for production
+   ```bash
+   npm run build
+3. Preview production build
+   ```bash
+   npm run preview
+
+## Project Structure
+src/
+├── components/ # Reusable UI components
+├── lib/        # API and utility functions
+├── pages/      # Page components
+├── types/      # TypeScript type definitions
+└── assets/     # Static assets
+
+## Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+3. Commit the changes
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+4. Push the branch
+   ```bash
+   git push origin feature/AmazingFeature
+5. Open a Pull Request
+
+## Acknowledgments
+- PokéAPI for providing the Pokémon data
+- Tailwind CSS for the styling framework
+- Lucide React for the icons
+
+
