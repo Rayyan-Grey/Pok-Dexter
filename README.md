@@ -1,4 +1,12 @@
-# PokéDexter
+<div align="center">
+  <img src="./public/LOGO.png" alt="PokéDexter Logo" width="200" height="auto"/>
+  
+  # PokéDexter
+</div>
+
+A modern Pokédex web application built with React, featuring a responsive design, advanced filtering, and detailed Pokémon information.
+
+Live Demo: [PokéDexter](https://pokedexter-rayn.netlify.app/)
 
 A modern Pokédex web application built with React, featuring a responsive design, advanced filtering, and detailed Pokémon information.
 
