@@ -5,7 +5,7 @@
   
   A modern Pokédex web application built with React, featuring a responsive design, advanced filtering, and detailed Pokémon information.
 
-  [Live Demo](https://pokedex-rayn.netlify.app/)
+  [Live Demo](https://pokedexter-rayn.netlify.app/)
 </div>
 
 A modern Pokédex web application built with React, featuring a responsive design, advanced filtering, and detailed Pokémon information.
