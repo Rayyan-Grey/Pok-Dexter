@@ -17,6 +17,8 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
   function getTypeIcon(type: string): string {
     return `/icons/${type}.svg`;
   }
+  
+
 
   function getGeneration(id: number): number {
     if (id > 905) return 9;

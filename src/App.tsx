@@ -28,7 +28,7 @@ function AppContent() {
           {/* Logo */}
           <div className="cursor-pointer" onClick={handleLogoClick}>
             <img
-              src="/Images/LOGO.png" 
+              src="/images/LOGO.png" 
               alt="Logo" 
               className="w-12 h-12 sm:w-16 sm:h-16 hover:scale-105 transition-transform" 
             />

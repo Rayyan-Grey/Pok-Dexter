@@ -139,7 +139,7 @@ export function PokemonDetail() {
     <div 
       className="min-h-screen py-4 sm:py-8 px-4"
       style={{
-        backgroundImage: 'url("/public/Images/P.jpg")',
+        backgroundImage: 'url("/images/P.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -200,7 +200,7 @@ export function PokemonDetail() {
                             {evo.types.map((type) => (
                               <img 
                                 key={type.type.name}
-                                src={`/src/icons/${type.type.name}.svg`}
+                                src={`/icons/${type.type.name}.svg`}
                                 alt={`${type.type.name} type`}
                                 className="w-6 h-6 drop-shadow"
                               />
@@ -271,7 +271,7 @@ export function PokemonDetail() {
                         >
                           <div className="flex items-center gap-2">
                             <img 
-                              src={`/src/icons/${type.type.name}.svg`}
+                              src={`/icons/${type.type.name}.svg`}
                               alt={`${type.type.name} type`}
                               className="w-5 h-5 drop-shadow"
                             />
@@ -336,7 +336,7 @@ export function PokemonDetail() {
                         {similar.types.map((type) => (
                           <img 
                             key={type.type.name}
-                            src={`/src/icons/${type.type.name}.svg`}
+                            src={`/icons/${type.type.name}.svg`}
                             alt={`${type.type.name} type`}
                             className="w-5 h-5 drop-shadow"
                           />
