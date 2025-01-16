@@ -67,15 +67,15 @@ Before running this project locally, ensure you have the following installed:
 
 src/
 |
-├── components/ # Reusable UI components
+- components/ # Reusable UI components
 |
-├── lib/        # API and utility functions
+- lib/        # API and utility functions
 |
-├── pages/      # Page components
+- pages/      # Page components
 |
-├── types/      # TypeScript type definitions
+- types/      # TypeScript type definitions
 |
-└── assets/     # Static assets
+- assets/     # Static assets
 
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
