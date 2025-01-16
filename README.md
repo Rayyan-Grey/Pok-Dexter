@@ -66,15 +66,10 @@ Before running this project locally, ensure you have the following installed:
 ## Project Structure
 
 src/
-|
 - components/ # Reusable UI components
-|
 - lib/        # API and utility functions
-|
 - pages/      # Page components
-|
 - types/      # TypeScript type definitions
-|
 - assets/     # Static assets
 
 ## Contributing
