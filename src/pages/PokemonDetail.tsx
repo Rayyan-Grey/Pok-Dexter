@@ -139,7 +139,7 @@ export function PokemonDetail() {
     <div 
       className="min-h-screen py-4 sm:py-8 px-4"
       style={{
-        backgroundImage: 'url("/src/Images/p.jpg")',
+        backgroundImage: 'url("/src/Images/P.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
