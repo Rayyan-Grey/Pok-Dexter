@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/LOGO.png" alt="PokéDexter Logo" width="200" height="auto"/>
+  <img src="./public/pokedex-logo.png" alt="PokéDexter Logo" width="200" height="auto"/>
   
   # PokéDexter
 </div>
