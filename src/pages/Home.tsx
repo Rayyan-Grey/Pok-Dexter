@@ -119,7 +119,7 @@ export function Home() {
   }
 
   return (
-    <div className="min-h-screen w-full bg-[url('/src/Images/P.jpg')] bg-cover bg-center bg-fixed">
+    <div className="min-h-screen w-full bg-[url('/public/images/P.jpg')] bg-cover bg-center bg-fixed">
       <div className="min-h-screen w-full bg-black/40">
         <div className="space-y-6 px-4 sm:px-6 lg:px-24">
           {/* Search and Filter Controls */}
