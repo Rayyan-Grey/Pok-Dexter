@@ -15,7 +15,7 @@ export function PokemonCard({ pokemon }: PokemonCardProps) {
   const [isHovering, setIsHovering] = useState(false);
 
   function getTypeIcon(type: string): string {
-    return `/src/icons/${type}.svg`;
+    return `/icons/${type}.svg`;
   }
 
   function getGeneration(id: number): number {
