@@ -201,9 +201,9 @@ export function Home() {
 
           {/* Pokemon Grid */}
           <div className="pb-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
               {displayedPokemon.map(pokemon => (
-                <div key={pokemon.id} className="transform transition-all duration-500 ease-out hover:scale-[1.02] w-full aspect-[1/1.4]">
+                <div key={pokemon.id} className="transform transition-all duration-500 ease-out hover:scale-105 mx-auto w-full max-w-[300px]">
                   <PokemonCard pokemon={pokemon} />
                 </div>
               ))}
