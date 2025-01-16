@@ -64,11 +64,17 @@ Before running this project locally, ensure you have the following installed:
    npm run preview
 
 ## Project Structure
+
 src/
+|
 ├── components/ # Reusable UI components
+|
 ├── lib/        # API and utility functions
+|
 ├── pages/      # Page components
+|
 ├── types/      # TypeScript type definitions
+|
 └── assets/     # Static assets
 
 ## Contributing
