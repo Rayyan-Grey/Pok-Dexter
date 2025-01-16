@@ -18,7 +18,9 @@ A modern Pokédex web application built with React, featuring a responsive desig
 - 📱 Responsive design for mobile and desktop  
 - 🎨 Beautiful UI with backdrop blur effects  
 - 📄 Pagination system  
-- ⚡ Real-time search updates  
+- ⚡ Real-time search updates
+
+- > 🐣 **Easter Egg**: Try hovering over Pikachu on the site for a surprise!  
 
 ## Tech Stack
 
@@ -88,5 +90,8 @@ Contributions are welcome! Follow these steps to contribute:
 - PokéAPI for providing the Pokémon data
 - Tailwind CSS for the styling framework
 - Lucide React for the icons
+
+## License
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
 
