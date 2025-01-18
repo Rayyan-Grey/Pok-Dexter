@@ -44,8 +44,8 @@ Before running this project locally, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/pokedexter.git
-   cd pokedexter
+   git clone https://github.com/Rayyan-Grey/PokeDexter.git
+   cd Pokedexter
 2. **Install dependencies**
    ```bash
    npm install
