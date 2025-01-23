@@ -92,7 +92,5 @@ Contributions are welcome! Follow these steps to contribute:
 - Tailwind CSS for the styling framework
 - Lucide React for the icons
 
-## License
-- This project is licensed under the MIT License. See the LICENSE file for details.
 
 
